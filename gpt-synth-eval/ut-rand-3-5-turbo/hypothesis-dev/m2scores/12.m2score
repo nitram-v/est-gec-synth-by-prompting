@@ -1,0 +1,59 @@
+Recall by error type:
+	 type 	 total 	 correct 	 scope 	 overlap
+	 R:SPELL	234	0.41	0.41	0.77	
+	 R:WS	35	0.31	0.31	0.54	
+	 R:NOM:FORM	417	0.38	0.38	0.66	
+	 U:PUNCT	88	0.3	0.3	0.64	
+	 R:NOM:FORM:SPELL	25	0.2	0.2	0.68	
+	 R:LEX:NOM:FORM	2	0.5	0.5	0.5	
+	 R:WO	304	0.3	0.31	0.69	
+	 R:LEX	170	0.2	0.2	0.58	
+	 M:PUNCT	140	0.63	0.63	0.78	
+	 R:LEX:WS	4	0.0	0.0	0.5	
+	 R:WS:NOM:FORM	6	0.0	0.0	0.33	
+	 U:LEX	60	0.2	0.2	0.6	
+	 M:LEX	75	0.19	0.2	0.51	
+	 R:VERB:FORM	84	0.37	0.37	0.7	
+	 R:CASE	16	0.19	0.19	0.69	
+	 R:VERB:FORM:SPELL	10	0.0	0.0	0.9	
+	 R:NOM:FORM:CASE	1	0.0	0.0	0.0	
+	 R:PUNCT	28	0.0	0.0	0.39	
+	 R:LEX:SPELL	4	0.0	0.0	1.0	
+	 R:WS:CASE	1	0.0	0.0	1.0	
+	 R:LEX:VERB:FORM	2	0.0	0.0	0.5	
+	 R:LEX:WO	1	1.0	1.0	1.0	
+	 R:WS:SPELL	3	0.0	0.0	0.33	
+	 R:SPELL:CASE	2	0.0	0.0	0.5	
+	 R:NOM:FORM:SPELL:CASE	1	0.0	0.0	0.0	
+
+Recall by error type, accounting for edits within encompassing WO:
+	 type 	 total 	 correct 	 scope 	 overlap
+	 R:SPELL	255	0.46	0.46	0.79	
+	 R:WS	40	0.4	0.4	0.6	
+	 R:NOM:FORM	455	0.43	0.43	0.69	
+	 U:PUNCT	93	0.33	0.33	0.66	
+	 R:NOM:FORM:SPELL	28	0.29	0.29	0.71	
+	 R:LEX:NOM:FORM	3	0.67	0.67	0.67	
+	 R:WO	304	0.3	0.31	0.69	
+	 R:LEX	193	0.3	0.3	0.63	
+	 M:PUNCT	147	0.65	0.65	0.79	
+	 R:CASE	19	0.32	0.32	0.74	
+	 R:LEX:WS	5	0.2	0.2	0.6	
+	 R:WS:NOM:FORM	6	0.0	0.0	0.33	
+	 U:LEX	64	0.25	0.25	0.62	
+	 M:LEX	84	0.27	0.29	0.56	
+	 R:VERB:FORM	96	0.45	0.45	0.74	
+	 R:LEX:SPELL	5	0.2	0.2	1.0	
+	 R:VERB:FORM:SPELL	12	0.17	0.17	0.92	
+	 R:LEX:VERB:FORM	3	0.33	0.33	0.67	
+	 R:NOM:FORM:CASE	1	0.0	0.0	0.0	
+	 R:PUNCT	28	0.0	0.0	0.39	
+	 R:WS:CASE	1	0.0	0.0	1.0	
+	 R:LEX:WO	1	1.0	1.0	1.0	
+	 R:WS:SPELL	3	0.0	0.0	0.33	
+	 R:SPELL:CASE	2	0.0	0.0	0.5	
+	 R:NOM:FORM:SPELL:CASE	1	0.0	0.0	0.0	
+
+Precision   : 0.5552
+Recall      : 0.3345
+F_0.5       : 0.4905
